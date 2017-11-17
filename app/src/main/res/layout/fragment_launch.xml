@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.megan.assignment9_twopanelayout_taite.LaunchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25pt"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:text="My Notetaker:"
+        android:padding="5pt"/>
+
+    <ImageButton
+        android:layout_width="110pt"
+        android:layout_height="110pt"
+        android:scaleType="fitCenter"
+        android:background="@color/whiteColor"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gaudi"
+        android:id="@+id/enterButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8pt"
+        android:text="Gaudi, Antoni. 1852-1926. Spanish\narchitect. Famed work: La Sagrada\nFamilia"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16pt"
+        android:fontFamily="serif-monospace"
+        android:text="ARCH150: Romanesque through Art Nouveau"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:padding="5pt"/>
+
+</LinearLayout>

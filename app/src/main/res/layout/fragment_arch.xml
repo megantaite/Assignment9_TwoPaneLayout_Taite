@@ -1,0 +1,76 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.megan.assignment9_twopanelayout_taite.ArchFragment">
+
+    <TextView
+        android:id="@+id/archType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gothic"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20pt"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/timePeriod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="timePeriod"
+        android:textSize="8pt"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/archType"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10pt"/>
+
+    <TextView
+        android:id="@+id/eleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="eleName"
+        android:textSize="13pt"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/timePeriod"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="descr"
+        android:textSize="8pt"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/eleName"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/itemPicture"
+        android:background="@color/whiteColor"
+        android:layout_width="150pt"
+        android:layout_height="150pt"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/description" />
+
+    <EditText
+        android:id="@+id/comments"
+        android:fontFamily="casual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemPicture"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
